@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Clima — Painel de Clima
+   CLIMA — Painel de Clima
    JavaScript puro (sem frameworks)
    APIs: Open-Meteo (forecast + geocoding + air quality, sem chave) e
    BigDataCloud (reverse geocoding, sem chave) para "usar minha localização".
