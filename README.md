@@ -1,33 +1,13 @@
 # 🌤️ Clima
 
-### Painel de Clima
-
-<p align="center">
-  <img src="./assets/screenshots/home.png" alt="Tela principal do Clima" width="900">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/API-Open--Meteo-blue?style=for-the-badge" alt="Open-Meteo API">
-  <img src="https://img.shields.io/badge/PWA-ready-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
-</p>
-
-Painel de clima em tempo real desenvolvido com **JavaScript puro** (sem frameworks), consumindo APIs públicas e gratuitas — nenhuma delas exige chave de API.
-
----
-
 ## Índice
 
 - [Sobre](#sobre)
 - [Funcionalidades](#funcionalidades)
-- [Screenshots](#screenshots)
 - [Tecnologias](#tecnologias)
 - [APIs utilizadas](#apis-utilizadas)
 - [Como executar](#como-executar)
 - [Estrutura do projeto](#estrutura-do-projeto)
-- [Deploy](#deploy)
 - [Aprendizados](#aprendizados)
 - [Licença](#licença)
 
@@ -39,35 +19,24 @@ O **Clima** é um painel de clima construído do zero, sem bibliotecas de UI ou 
 
 ## Funcionalidades
 
-- ✅ Busca de cidades com autocomplete
-- ✅ Geolocalização (com nome real da cidade via reverse geocoding)
-- ✅ Favoritos (localStorage)
-- ✅ Histórico de buscas (localStorage)
-- ✅ Temperatura atual e sensação térmica
-- ✅ Umidade, pressão e visibilidade
-- ✅ Vento com direção (bússola)
-- ✅ Índice UV
-- ✅ Qualidade do ar (AQI)
-- ✅ Chance de chuva e nascer/pôr do sol
-- ✅ Gráfico de temperatura das próximas 24h (Canvas puro)
-- ✅ Previsão horária e de 5 dias
-- ✅ Mapa da localização
-- ✅ Compartilhamento da previsão (Web Share API)
-- ✅ Alternância °C / °F
-- ✅ PWA instalável (funciona offline)
-- ✅ Interface 100% responsiva
+-  Busca de cidades com autocomplete
+-  Geolocalização (com nome real da cidade via reverse geocoding)
+-  Favoritos (localStorage)
+-  Histórico de buscas (localStorage)
+-  Temperatura atual e sensação térmica
+-  Umidade, pressão e visibilidade
+-  Vento com direção (bússola)
+-  Índice UV
+-  Qualidade do ar (AQI)
+-  Chance de chuva e nascer/pôr do sol
+-  Gráfico de temperatura das próximas 24h (Canvas puro)
+-  Previsão horária e de 5 dias
+-  Mapa da localização
+-  Compartilhamento da previsão (Web Share API)
+-  Alternância °C / °F
+-  PWA instalável (funciona offline)
+-  Interface 100% responsiva
 
-## Screenshots
-
-> Substitua os placeholders abaixo pelas suas próprias capturas de tela (salve em `assets/screenshots/`).
-
-| Home | Busca de cidade |
-|---|---|
-| ![Home](./assets/screenshots/home.png) | ![Busca](./assets/screenshots/search.png) |
-
-| Mapa | Modo chuva |
-|---|---|
-| ![Mapa](./assets/screenshots/map.png) | ![Chuva](./assets/screenshots/rain-mode.png) |
 
 ## Tecnologias
 
@@ -119,14 +88,7 @@ clima-dashboard/
 ├── manifest.json         # Configuração do PWA
 ├── sw.js                  # Service worker (cache offline)
 ├── icon.svg               # Ícone do app
-└── README.md
 ```
-
-## Deploy
-
-🔗 **[https://seuusuario.github.io/clima-dashboard/](https://seuusuario.github.io/clima-dashboard/)**
-
-> Publique gratuitamente pelo GitHub Pages: `Settings → Pages → Branch: main → Save`, e substitua o link acima pela URL gerada.
 
 ## Aprendizados
 
